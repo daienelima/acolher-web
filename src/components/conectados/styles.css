@@ -12,5 +12,13 @@
   background-color: #7a91ca;
 }
 .icon {
-  padding-top: 30px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.item{
+  text-align: center;
+  color: #FFF;
+  padding: 30px 0;
 }

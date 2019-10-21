@@ -6,8 +6,7 @@ import '../painel/styles.css';
 export default function Painel() {
   return (
     <Fragment>
-      <div>
-        <img src={Home} className="imagem" alt="" />
+      <div className="banner-principal">
       </div>
     </Fragment>
   );
