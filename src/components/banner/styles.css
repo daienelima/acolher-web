@@ -1,0 +1,24 @@
+.nosso-app{
+    background-color: #86ff6e;
+    padding: 50px 15px;
+    height: 700px;
+}
+
+.nosso-app .carousel-indicators{
+    top: 100%;
+}
+
+.anchor-googleplay{
+    margin-top: 90px;
+    display: block;
+    height: 100px;
+    text-align: center;
+}
+
+.anchor-googleplay .googleplay{
+    height: 100%;
+}
+
+.d-block{
+    margin: 0 auto;
+}
