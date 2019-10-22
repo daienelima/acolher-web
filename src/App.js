@@ -4,6 +4,7 @@ import Painel from './components/painel';
 import Nos from './components/nos';
 import Conectados from './components/conectados';
 import Banner from './components/banner';
+import Patriocinadores from './components/patriocinadores';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Nos />
         <Conectados />
         <Banner />
+        <Patriocinadores />
       </div>
     </Fragment>
   );
