@@ -26,7 +26,7 @@ export default function Banner() {
                 <img className="googleplay" src={Googleplay} alt=""></img>
               </a>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 mt-3">
               <Carousel>
                 <Carousel.Item>
                   <img

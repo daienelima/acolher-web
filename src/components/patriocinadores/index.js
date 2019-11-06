@@ -9,12 +9,25 @@ import Patriocinador04 from '../../assets/04.png';
 export default function Patriocinadores() {
   return (
     <Fragment>
-      <div className="espaco">
-        <img src={Patriocinador01} alt="" />
-        <img src={Patriocinador03} alt="" />
-        <img src={Patriocinador04} alt="" />
-        <img src={Patriocinador02} alt="" />
-      </div>
+      <section className="espaco">
+        <div className="col-md-12">
+          <strong className="mb-3 mt-3">Nossos patrocinadores</strong>
+          <div className="row">
+            <div className="col-md-3 item">
+              <img src={Patriocinador01} alt="" />
+            </div>
+            <div className="col-md-3 item">
+              <img src={Patriocinador03} alt="" />
+            </div>
+            <div className="col-md-3 item">
+              <img src={Patriocinador04} alt="" />
+            </div>  
+            <div className="col-md-3 item">
+              <img src={Patriocinador02} alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
     </Fragment>
   );
 }
