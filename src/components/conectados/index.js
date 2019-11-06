@@ -5,7 +5,7 @@ import Consultas from '../../assets/Consulta.png';
 import Pessoas from '../../assets/heart.png';
 import Instituicao from '../../assets/Instituicao.png';
 import api from '../../services/api';
-
+import CountUp from 'react-countup';
 var stylePessoas = {
   backgroundImage: `url(${Pessoas})`
 };
@@ -43,17 +43,32 @@ export default class Conectados extends Component {
             <div className="row">
               <div className="col-sm item">
                 <div className="icon" style={stylePessoas}></div>
-                <h3>{this.state.qtdPessoasAjudadas}</h3>
+                <h3>
+                  <CountUp
+                    end={this.state.qtdPessoasAjudadas}
+                    duration={3}>
+                  </CountUp>
+                </h3>
                 <h5>Pessoas ajudadas</h5>
               </div>
               <div className="col-sm item">
                 <div className="icon" style={styleConsultas}></div>
-                <h3>{this.state.qtdConsultasRealizadas}</h3>
+                <h3>
+                  <CountUp
+                    end={this.state.qtdConsultasRealizadas}
+                    duration={3}>
+                  </CountUp>
+                </h3>
                 <h5>Consultas agendadas</h5>
               </div>
               <div className="col-sm item">
                 <div className="icon" style={styleInstituicao}></div>
-                <h3>{this.state.qtdInstituicoes}</h3>
+                <h3>
+                  <CountUp
+                    end={this.state.qtdInstituicoes}
+                    duration={3}>
+                  </CountUp>
+                  </h3>
                 <h5>Instituições associadas</h5>
               </div>
             </div>

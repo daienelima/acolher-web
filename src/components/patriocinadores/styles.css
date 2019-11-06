@@ -1,3 +1,9 @@
 .espaco {
   padding: 2%;
+  background-color: #ffc0c8;
+  text-align: center;
+}
+
+.espaco strong{
+  display: block;
 }
