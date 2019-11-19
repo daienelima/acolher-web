@@ -2,6 +2,9 @@ import React, { Fragment } from 'react';
 
 import '../banner/styles.css';
 import Carousel from 'react-bootstrap/Carousel';
+import home from '../../assets/home.jpg';
+import config from '../../assets/config.jpg';
+import agenda from '../../assets/agenda.jpg';
 
 import Googleplay from '../../assets/googleplay.png';
 
@@ -13,15 +16,7 @@ export default function Banner() {
           <div className="row">
             <div className="col-md-7">
               <strong>Nosso app</strong>
-              <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source.
-              </p>
+              <p>Baixe agora o Acolher para seu celular e faça a diferença</p>
               <a href="javascript" className="anchor-googleplay">
                 <img className="googleplay" src={Googleplay} alt=""></img>
               </a>
@@ -29,25 +24,13 @@ export default function Banner() {
             <div className="col-md-5 mt-3">
               <Carousel>
                 <Carousel.Item>
-                  <img
-                    className="d-block"
-                    src="https://via.placeholder.com/320x600"
-                    alt="First slide"
-                  />
+                  <img className="d-block" src={home} alt="First slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    className="d-block"
-                    src="https://via.placeholder.com/320x600"
-                    alt="Third slide"
-                  />
+                  <img className="d-block" src={config} alt="Third slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    className="d-block"
-                    src="https://via.placeholder.com/320x600"
-                    alt="Third slide"
-                  />
+                  <img className="d-block" src={agenda} alt="Third slide" />
                 </Carousel.Item>
               </Carousel>
             </div>

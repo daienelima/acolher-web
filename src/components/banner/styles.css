@@ -1,23 +1,24 @@
-.nosso-app{
-    background-color: #f2aab9;
-    padding: 50px 15px;
+.nosso-app {
+  background-color: #f2aab9;
+  padding: 50px 15px;
 }
 
-.nosso-app .carousel-indicators{
-    top: 100%;
+.nosso-app .carousel-indicators {
+  top: 100%;
 }
 
-.anchor-googleplay{
-    margin-top: 90px;
-    display: block;
-    height: 100px;
-    text-align: center;
+.anchor-googleplay {
+  margin-top: 90px;
+  display: block;
+  height: 100px;
+  text-align: center;
 }
 
-.anchor-googleplay .googleplay{
-    height: 100%;
+.anchor-googleplay .googleplay {
+  height: 100%;
 }
 
-.d-block{
-    margin: 0 auto;
+.d-block {
+  margin: 0 auto;
+  height: 650px;
 }
