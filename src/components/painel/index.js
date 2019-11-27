@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Home from '../../assets/home.png';
+import Home from '../../assets/imgBanner2.jpg';
 import Logo from '../../assets/logo.png';
 import '../painel/styles.css';
 
